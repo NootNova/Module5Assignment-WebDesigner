@@ -41,11 +41,52 @@
 
     <main>
 
+<!--Put the form in a div to apply text align center to the div to have the form centered-->
+
+        <div>
+
+            <form action="/submit" method="post">
+
+                <label for="name">Name:</label>
+
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+                <br><br>
+
+                <label for="email">Email:</label>
+
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+                <br><br>
+
+                <label for="subject" style="color: rgba(132, 16, 240, 0.851);">Subject:</label>
+
+                <textarea id="subject" name="subject" rows="1" cols="20" placeholder="Enter the subject" required></textarea>
+
+                <br><br>
+
+                <label for="message" style="color:blueviolet;">Message:</label>
+            
+                <br>
+
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea>
+            
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+                <input type="reset" value="Reset">
+
+            </form>
+
+        </div>
+
     </main>
 
     <footer>
 
-                <p class="copyright">&copy; Copyright 2026 "Noot" Nova Wolta | <a style="text-decoration: none; color: #d50909d6; margin: 4px; padding: 5px; border-radius: 20px; font-weight: bold; font-size: 16px;" href="https://github.com/NootNova" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p class="copyright">&copy; Copyright 2026 "Noot" Nova Wolta | <a style="text-decoration: none; color: #d50909d6; margin: 4px; padding: 5px; border-radius: 20px; font-weight: bold; font-size: 16px;" href="https://github.com/NootNova" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+
     </footer>
 
 </body>
