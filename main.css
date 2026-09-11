@@ -73,9 +73,24 @@ textarea {
 
 }
 
-placeholder {
+ol {
 
-    background-color: #ce9191;
+    font-size: 20px;
+
+    font-weight: bolder;
+
+    padding: 50px;
+
+    margin-left: 28px;
+
+    background-color: #000000;
+    
+    color: #cf27a2;
+
+    border: 5px solid #eae607d6;
+
+    display: inline-block;
+
 }
 
 body {
