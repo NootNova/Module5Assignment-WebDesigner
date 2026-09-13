@@ -1,4 +1,15 @@
 
+#to-dolist {
+
+    width: 380px;
+
+    height: 250px;
+
+    float: right;
+
+    margin-top: 20px;
+}
+
 #media-header {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
